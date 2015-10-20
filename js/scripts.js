@@ -17,6 +17,11 @@ $(document).ready(function() {
       $(".not").text("not");
     }
 
+    $(".year").text(year);
+    if (result) {
+      $(".not").text("");
+    }
+
     $("#result").show();
     event.preventDefault();
   });
