@@ -15,10 +15,7 @@ $(document).ready(function() {
     $(".year").text(year);
     if (!result) {
       $(".not").text("not");
-    }
-
-    $(".year").text(year);
-    if (result) {
+    } else if (result) {
       $(".not").text("");
     }
 
